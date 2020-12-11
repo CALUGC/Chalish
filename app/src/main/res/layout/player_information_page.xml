@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainPage">
+
+    <LinearLayout
+        android:id="@+id/tbllUp"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="@drawable/toolbar"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="167dp">
+
+        <Button
+            android:id="@+id/btnPrePage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/abc_vector_test"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvPlayinform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/player_inform"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="120dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="50dp"
+                android:src="@drawable/bighead"
+
+                />
+
+            <LinearLayout
+                android:layout_width="218dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPlayerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="130dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPlayerInformation"
+                    android:text="PlayerName" />
+
+                <TextView
+                    android:id="@+id/tvPlayerLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPlayerInformation"
+                    android:text="PlayerLevel" />
+
+                <TextView
+                    android:id="@+id/tvTablet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPlayerInformation"
+                    android:textStyle="bold"
+                    android:text="@string/tvTablet" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="380dp"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:background="@color/colorPlayerInformation">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvSigndate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/RegisterDate" />
+
+                <TextView
+                    android:id="@+id/tvPlayetime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/Playtime" />
+
+                <TextView
+                    android:id="@+id/tvOnlinestatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/Onlinestatus" />
+
+                <TextView
+                    android:id="@+id/tvWeekalive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/weekalive" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvSigndatee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="40dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/SignDate" />
+
+                <TextView
+                    android:id="@+id/tvPlaytimee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/_100_10" />
+
+                <TextView
+                    android:id="@+id/tvOfflinee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/Offline" />
+
+                <TextView
+                    android:id="@+id/tvWeekalivee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/Weekalive" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAdvanced"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="@color/colorMainPageBlue"
+                android:layout_marginTop="20dp"
+                android:text="@string/Advanced" />
+            <Button
+                android:id="@+id/btnChangehead"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="@color/colorMainPageBlue"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Changehead" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

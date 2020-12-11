@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:id="@+id/tbllUp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_up"
+        android:background="@drawable/toolbar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="167dp">
+
+        <Button
+            android:id="@+id/btnPrePage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/abc_vector_test" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_up"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tvSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Reward"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbllUp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/btn_radius"
+            android:backgroundTint="@color/colorRewardPageOrange"
+            android:padding="10dp"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm"
+            app:layout_constraintTop_toBottomOf="@+id/tbllUp">
+
+
+            <TextView
+                android:id="@+id/tvReward1"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="@color/colorWhite"
+                android:gravity="center"
+                android:text="@string/RewardEveryDay"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvRewardStr1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/RewardEveryDayStr" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/btn_radius"
+            android:backgroundTint="@color/colorRewardPageOrange"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm">
+
+            <TextView
+                android:id="@+id/tvReward2"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="@color/colorWhite"
+                android:gravity="center"
+                android:text="@string/RewardLevel"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvRewardStr2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/RewardLevelStr" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/btn_radius"
+            android:backgroundTint="@color/colorRewardPageOrange"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm">
+
+            <TextView
+                android:id="@+id/tvReward3"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="@color/colorWhite"
+                android:gravity="center"
+                android:text="@string/RewardFestival"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tvRewardStr3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/RewardFestivalStr" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/btn_radius"
+            android:backgroundTint="@color/colorRewardPageOrange"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm">
+
+            <TextView
+                android:id="@+id/tvReward4"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="@color/colorWhite"
+                android:gravity="center"
+                android:text="@string/RewardOnline"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tvRewardStr4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/RewardOnlineStr" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbllUp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="right|center_vertical"
+            android:padding="15dp"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm"
+            app:layout_constraintTop_toBottomOf="@+id/tbllUp">
+
+            <Button
+                android:id="@+id/btnReward1"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="@color/colorRewardPageCoffee"
+                android:text="@string/RewardReceive"
+                android:textColor="@color/colorWhite"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:gravity="right|center_vertical"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm">
+
+            <Button
+                android:id="@+id/btnReward2"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="@color/colorRewardPageCoffee"
+                android:text="@string/RewardReceive"
+                android:textColor="@color/colorWhite"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:gravity="right|center_vertical"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm">
+
+            <Button
+                android:id="@+id/btnReward3"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="@color/colorRewardPageCoffee"
+                android:text="@string/RewardReceive"
+                android:textColor="@color/colorWhite"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:gravity="right|center_vertical"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm">
+
+            <Button
+                android:id="@+id/btnReward4"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/btn_radius"
+                android:backgroundTint="@color/colorRewardPageCoffee"
+                android:text="@string/RewardReceive"
+                android:textColor="@color/colorWhite"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

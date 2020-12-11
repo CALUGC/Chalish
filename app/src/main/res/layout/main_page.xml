@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/tbllUp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/toolbar_up"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/ivPlayerIcon"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/btn_circle"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="25dp" />
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical"
+                android:text="@string/PlayerName"
+                android:textColor="@color/colorWhite"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/tvPlayerLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical"
+                android:text="@string/PlayerLevel"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="@+id/tbUp"
+                app:layout_constraintTop_toBottomOf="@+id/tvPlayerName"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="161dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPlayerMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="50dp"
+            android:gravity="right"
+            android:text="@string/PlayerMoney"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/tbllBtm"
+        app:layout_constraintTop_toBottomOf="@+id/tbllUp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm"
+            app:layout_constraintTop_toBottomOf="@+id/tbllUp">
+
+            <Button
+                android:id="@+id/btnMall"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/btn_parallelogram_shape_yellow"
+                android:text="@string/Mall"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btnPK"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/btn_parallelogram_shape_red"
+                android:text="@string/PK"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tbllUp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm">
+
+            <Button
+                android:id="@+id/btnCustom"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/btn_parallelogram_shape_purple"
+                android:text="@string/Custom"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btnNPC"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/btn_parallelogram_shape_green"
+                android:text="@string/NPC"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tbllBtm"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/toolbar"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <Button
+            android:id="@+id/btnFriend"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/btn_circle"
+            android:text="@string/Friend"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tb_btm"
+            app:layout_constraintStart_toStartOf="@+id/tbllBtm"
+            app:layout_constraintTop_toTopOf="@+id/tb_btm" />
+
+        <Button
+            android:id="@+id/btnRank"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_circle"
+            android:gravity="center"
+            android:text="@string/Rank" />
+
+        <Button
+            android:id="@+id/btnReward"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/btn_circle"
+            android:gravity="center"
+            android:text="@string/Reward" />
+
+        <Button
+            android:id="@+id/btnSetting"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/btn_circle"
+            android:gravity="center"
+            android:text="@string/Setting" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

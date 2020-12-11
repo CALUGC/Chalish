@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorblack">#FF000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBackground">#f9e5c5</color>
+
+    <color name="colorLoginDownBackground">#5a80d6</color>
+    <color name="colorLoginUpBackground">#99c9d2</color>
+
+    <color name="colorMainPageRed">#fcb59d</color>
+    <color name="colorMainPageYellow">#eaea84</color>
+    <color name="colorMainPagePurple">#a198cb</color>
+    <color name="colorMainPageGreen">#70cda2</color>
+    <color name="colorMainPageDarkBlue">#34538a</color>
+    <color name="colorMainPageBlue">#b3c6d5</color>
+    <color name="colorMainPageCoffee">#ac9997</color>
+
+    <color name="colorSetPageGray">#bbbbbb</color>
+
+    <color name="colorRewardPageOrange">#f4b894</color>
+    <color name="colorRewardPageGray">#a7adb1</color>
+    <color name="colorRewardPageLightGray">#d7ccc8</color>
+    <color name="colorRewardPageCoffee">#a38d80</color>
+
+    <color name="colorCustomBackgroung">#e9dfea</color>
+    <color name="colorCustomDarkPurple">#7c55bf</color>
+
+    <color name="colorPlayerInformation">#a1887f</color>
+
+    <color name="colorNPCBackgroung">#eee9dc</color>
+    <color name="colorNPCDarkGreen">#4da18c</color>
+    <color name="colorNPCCoffee">#3e2723</color>
+
+    <color name="colorPKBackgroung">#ebe2e0</color>
+    <color name="colorPKDarkRed">#bc606a</color>
+
+    <color name="colorPKCoffee">#5e4037</color>
+
+    <color name="grayShop">#FAF0E6</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="red">#FF0000</color>
+</resources>

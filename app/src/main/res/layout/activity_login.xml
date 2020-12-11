@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94B7EC">
+
+    <TextView
+
+        android:id="@+id/txtChalish"
+        android:layout_width="185dp"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal"
+        android:text="Chalish"
+        android:textColor="#35170D"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="76dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/edtAcount"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:labelFor="@id/edtAcount"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="234dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginEnd="148dp"
+        android:background="#B8E7ED"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="423dp"
+        tools:text="@string/LogIn"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvAcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acount:"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="240dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="312dp"
+        tools:ignore="MissingConstraints" />"
+
+</androidx.constraintlayout.widget.ConstraintLayout>

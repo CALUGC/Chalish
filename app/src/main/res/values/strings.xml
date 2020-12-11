@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">員工資料查詢</string>
+    <string name="strEtLastNameHint">請輸入員工編號/姓名</string>
+    <string name="strBtnSearchText">搜尋</string>
+    <string name="strTvInfoText">"編號     姓氏       名字     性別           生日"</string>
+    <string name="strTvSortBy">排序：</string>
+    <string name="StrRbEmpNo">編號</string>
+    <string name="StrRbEmpFName">姓氏</string>
+    <string name="StrRbEmpLName">名字</string>
+    <string name="StrRbEmpGender">性別</string>
+    <string name="StrRbEmpBirthDate">生日</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+    <string name="title_activity_login">Sign in</string>
+
+<!--    <string name="facebook_application_id" translatable="false">196318275414410</string>-->
+<!--    <string name="facebook_login_protocol_scheme" translatable="false">fb196318275414410</string>-->
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_main_page">Hello main page</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="next">Next</string>
+    <string name="Mall">- Mall -</string>
+    <string name="PK">- PK -</string>
+    <string name="NPC">- NPC -</string>
+    <string name="Custom">- Custom -</string>
+    <string name="Friend">Friend</string>
+    <string name="Rank">Rank</string>
+    <string name="Reward">Reward</string>
+    <string name="Setting">Setting</string>
+
+    <string name="PlayerName">Player name</string>
+    <string name="PlayerLevel">Lv.10000</string>
+    <string name="PlayerMoney">$:9999999</string>
+
+    <string name="register">Register</string>
+    <string name="Acount">Acount</string>
+    <string name="Password">Password</string>
+    <string name="PasswordCheck">Password enter again</string>
+    <string name="Email">Email</string>
+
+    <string name="Waiting">Wait</string>
+    <string name="Waitstr">正在尋找對手</string>
+
+    <string name="Logout">Log Out</string>
+
+    <string name="RewardEveryDayStr">每日上線獎勵</string>
+    <string name="RewardEveryDay">500金幣</string>
+    <string name="RewardLevelStr">50等禮包</string>
+    <string name="RewardLevel">隨機道具</string>
+    <string name="RewardFestivalStr">聖誕節福利</string>
+    <string name="RewardFestival">1HR\n經驗翻倍</string>
+    <string name="RewardOnlineStr">活躍度獎勵</string>
+    <string name="RewardOnline">1HR\n金幣翻倍</string>
+    <string name="RewardReceive">領取</string>
+
+    <string name="one">ONE</string>
+    <string name="two">TWO</string>
+    <string name="three">THREE</string>
+    <string name="four">Four</string>
+    <string name="five">FIVE</string>
+    <string name="playerScore1">1500</string>
+    <string name="playerScore2">1000</string>
+    <string name="win">WIN</string>
+    <string name="lose">LOSE</string>
+    <string name="NPCScore">此次成績 : 1500</string>
+    <string name="customNew">NEW</string>
+    <string name="friendFloor">此次層數 : 18</string>
+    <string name="friendRank">好友排名 : 3</string>
+    <string name="playerBest">最佳層數 : 18</string>
+    <string name="endExperience">+1500經驗值</string>
+    <string name="endRank">積分牌位:白金</string>
+    <string name="again">Again</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="chalish_title">Chalish</string>
+    <string name="sing_in">Sing In</string>
+    <string name="tvShop">商城</string>
+    <string name="Shopping">Shop</string>
+    <string name="purchase">購買</string>
+    <string name="imgProduct">product</string>
+    <string name="diamond">牌位需要鑽石</string>
+    <string name="master">牌位需要大師</string>
+    <string name="shophead">頭框</string>
+    <string name="product">道具</string>
+
+    <string name="player_inform">玩家資料</string>
+    <string name="battle">邀請對戰</string>
+    <string name="Playtime">遊玩時長</string>
+    <string name="Onlinestatus">上線狀態</string>
+    <string name="weekalive">本週活躍度</string>
+    <string name="SignDate">20201022</string>
+    <string name="_100_10">100小時10分鐘</string>
+    <string name="Offline">離線中</string>
+    <string name="Weekalive">20</string>
+    <string name="Changehead">更改頭像</string>
+    <string name="Invitebattle">Invitebattle</string>
+    <string name="Advanced">進階</string>
+    <string name="Coinsnumber">金幣數量</string>
+    <string name="RegisterDate">註冊日期</string>
+    <string name="NumberCoins">金幣數量</string>
+    <string name="CurrentExperiencee">1000/4000</string>
+    <string name="CurrentRankScoress">2000</string>
+    <string name="Tablet">白金</string>
+    <string name="tvTablet">目前牌位:白金</string>
+    <string name="MatchRecordd">950/1000</string>
+    <string name="RankWinPercentt">95%</string>
+    <string name="NumberOfCorrectAnss">9876</string>
+    <string name="HighestContWinn">3局</string>
+    <string name="TheBestSurvv">19題</string>
+    <string name="CurrentExperience">目前經驗</string>
+    <string name="CurrentRankScores">目前積分</string>
+    <string name="CurrentTablet">目前牌位</string>
+    <string name="MatchRecord">比賽戰績</string>
+    <string name="RankWinPercent">積分勝率</string>
+    <string name="NumberOfCorrectAns">答對題數</string>
+    <string name="HighestContWin">最高連勝</string>
+    <string name="TheBestSurv">生存最佳</string>
+    <string name="Leaderboard">排行榜</string>
+    <string name="LogIn">Log In</string>
+</resources>

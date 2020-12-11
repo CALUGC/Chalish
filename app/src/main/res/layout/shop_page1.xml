@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:backgroundTintMode="src_atop"
+    tools:context=".LoginActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnBuy3"
+            android:layout_width="120dp"
+            android:layout_height="31dp"
+            android:background="@color/grayShop"
+            android:text="@string/master"
+            android:textColor="@color/red"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivHead4"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnBuy2"
+            android:layout_width="120dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="50dp"
+            android:background="@color/grayShop"
+            android:text="@string/diamond"
+            android:textColor="@color/red"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivHead3"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+        <TextView
+            android:id="@+id/tvShopuptoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_up"
+            android:background="@drawable/toolbar"
+            android:gravity="center_horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnPrePage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/abc_vector_test"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvShoptoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/toolbar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <Button
+            android:id="@+id/btnPagephead"
+            android:layout_width="313dp"
+            android:layout_height="87dp"
+            android:layout_marginEnd="176dp"
+            android:background="@drawable/btn_shop_head"
+            android:text="@string/shophead"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/ivhead"
+            android:layout_width="119dp"
+            android:layout_height="157dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="50dp"
+            android:contentDescription="@string/imgProduct"
+            android:src="@drawable/_"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvShopuptoolbar"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnBuy1"
+            android:layout_width="120dp"
+            android:layout_height="31dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/grayShop"
+            android:text="@string/purchase"
+            android:textColor="@color/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivhead"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/ivHead2"
+            android:layout_width="119dp"
+            android:layout_height="157dp"
+            android:contentDescription="@string/imgProduct"
+            android:src="@drawable/product2"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvShopuptoolbar"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnBuy"
+            android:layout_width="120dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="50dp"
+            android:background="@color/grayShop"
+            android:text="@string/purchase"
+            android:textColor="@color/red"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivHead2"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/ivHead3"
+            android:layout_width="119dp"
+            android:layout_height="157dp"
+            android:contentDescription="@string/imgProduct"
+            android:src="@drawable/product3"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnBuy"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/ivHead4"
+            android:layout_width="119dp"
+            android:layout_height="157dp"
+            android:contentDescription="@string/imgProduct"
+            android:src="@drawable/product4"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnBuy1"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="136dp"
+            android:layout_height="61dp"
+            android:background="@color/colorMainPageDarkBlue"
+            android:text="@string/product"
+            android:textColor="@color/colorMainPageBlue"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="769dp" />
+
+        <TextView
+            android:id="@+id/tvTablet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTablet"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvCoins"
+            app:layout_constraintTop_toTopOf="@+id/tvShopuptoolbar"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvCoins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="金幣:9999999"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

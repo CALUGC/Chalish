@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainPage">
+
+    <LinearLayout
+        android:id="@+id/tbllUp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_up"
+        android:background="@drawable/toolbar"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="167dp">
+
+        <Button
+            android:id="@+id/btnPrePage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/abc_vector_test"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_up"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Setting"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/tbllBtm"
+        app:layout_constraintTop_toBottomOf="@+id/tbllUp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-152dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm"
+            app:layout_constraintTop_toBottomOf="@+id/tbllUp">
+
+
+            <ImageButton
+                android:id="@+id/ibSubstractMusic"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitCenter"
+                android:src="@drawable/substract1" />
+
+            <ImageView
+                android:id="@+id/ivMusicIcon"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/music_icon" />
+
+            <ImageButton
+                android:id="@+id/ibPlusMusic"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitCenter"
+                android:src="?attr/selectableItemBackground"
+                tools:src="@drawable/plus1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm">
+
+            <ImageButton
+                android:id="@+id/ibSubstractSound"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitCenter"
+                android:src="@drawable/substract1" />
+
+            <ImageView
+                android:id="@+id/ivSoundIcon"
+                android:layout_width="70dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sound_icon"
+                tools:srcCompat="@drawable/sound_icon" />
+
+            <ImageButton
+                android:id="@+id/ibPlusSound"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitCenter"
+                android:src="?attr/selectableItemBackground"
+                tools:src="@drawable/plus1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/tbllBtm">
+
+            <TextView
+                android:id="@+id/tvLogOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="@string/Logout"
+                android:textColor="@color/colorSetPageGray"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/ivLogoutIcon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitEnd"
+                android:src="@drawable/logout1" />>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
